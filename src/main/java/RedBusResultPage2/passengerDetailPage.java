@@ -82,7 +82,7 @@ public class passengerDetailPage extends abstractComponets2 {
 //	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	AssuranceInRedbus.click();
 	continueTObooking.click();
-	Thread.sleep(600000);
+	Thread.sleep(6000);
 	driver.quit();}
 
 }
