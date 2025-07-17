@@ -37,7 +37,7 @@ public class homepage extends abstractComponets2 {
 	@FindBy(xpath="//span[text()='Date of Journey']")
 	WebElement chooseDate;
 	
-	@FindBy(xpath="//i[@class='icon icon-arrow arrow___39c3ea right___fc1d59 ']")
+	@FindBy(xpath="//i[@class='icon icon-arrow arrow___4df7ff right___90a032 ']")
 	WebElement selectForwardButton;
 	
 	@FindBy(xpath="//span[text()='30']")
