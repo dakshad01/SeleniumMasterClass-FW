@@ -34,14 +34,15 @@ public class passengerDetailPage extends abstractComponets2 {
 	@FindBy(xpath="(//label[contains(@class,'customRadio___')])[21]")
 	WebElement selectDroppingPoint;
 	
-	@FindBy(xpath="//input[@placeHolder='Email']")
-	WebElement PassengerEmailId;
-	
 	@FindBy(xpath="//input[@name='Phone']")
 	WebElement PassengerPhonneNumber;
 	
-	@FindBy(xpath="//input[@class='inputField___00a73c   ']")
+	@FindBy(xpath="//input[@placeHolder='Email']")
+	WebElement PassengerEmailId;
+	
+	@FindBy(xpath="//input[@class='inputField___3b2f3f   ']")
 	WebElement stateSelectionClick;
+	
 	@FindBy(xpath="//div[text()='Tamil Nadu']")
 	WebElement selectstateSelectionClick;
 	
@@ -70,9 +71,10 @@ public class passengerDetailPage extends abstractComponets2 {
 	selectBoardingPoint.click();
 	selectDroppingPoint.click();
 	}
-	public void passengerDetail(String EmailId, String phoneNumber, String name,String age ) throws InterruptedException {
-	PassengerEmailId.sendKeys(EmailId);
+	public void passengerDetail(String phoneNumber, String EmailId, String name,String age ) throws InterruptedException {
 	PassengerPhonneNumber.sendKeys(phoneNumber);
+	
+	PassengerEmailId.sendKeys(EmailId);
 	stateSelectionClick.click();
 	selectstateSelectionClick.click();
 	passengerName.sendKeys(name);

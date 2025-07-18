@@ -33,7 +33,7 @@ public class E2Eclass {
 		
 		passengerDetailPageObject.seatsAndBoardndDropPoint();
 		
-		passengerDetailPageObject.passengerDetail("dakshaddakshad@gmail.com", "9976797271", "DAKSHAD", "21");
+		passengerDetailPageObject.passengerDetail("9976797271", "dakshaddakshad@gmail.com", "DAKSHAD", "21");
 		
 	}
 	
